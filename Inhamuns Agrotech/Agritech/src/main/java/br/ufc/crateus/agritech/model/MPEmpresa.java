@@ -1,4 +1,4 @@
-package br.ufc.crateus.agritech.model;
+ package br.ufc.crateus.agritech.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
