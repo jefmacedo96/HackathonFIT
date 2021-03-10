@@ -1,0 +1,8 @@
+.mainHeader{
+    height: 80px !important;
+    border-bottom:  3px solid rgba(85, 166, 48, 0.95) !important;
+}
+.navbar-text{
+    margin: 0 10px ;
+    
+}
