@@ -15,10 +15,10 @@ export default function Header() {
                 <Nav>
                 <Link to = "/"><Nav.Link href="#home">Home</Nav.Link></Link>
                 <Link to = "/Produtos"><Nav.Link href="#produtos">Produtos</Nav.Link></Link>
-                <Link to = "/Agricutores">   <Nav.Link href="#agricutores">Agricutores</Nav.Link></Link>
+                <Link to = "/Agricutores">   <Nav.Link href="#agricutores">Agricultores</Nav.Link></Link>
                 <Link to = "/Empresas">   <Nav.Link href="#produtos">Empresas</Nav.Link></Link>
-                <Link to = "/CadastrarUsuario">  <Button variant="outline-success">Cadastre-se</Button></Link>
-                <Link to = "/Login">  <Button variant="outline-success">Login</Button></Link>
+                <Link to = "/CadastrarUsuario">  <Button variant="success">Cadastre-se</Button></Link>
+                <Link to = "/Login">   <Nav.Link >Login</Nav.Link></Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
