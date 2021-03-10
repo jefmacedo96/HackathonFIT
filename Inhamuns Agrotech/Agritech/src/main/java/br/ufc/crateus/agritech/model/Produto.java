@@ -18,8 +18,8 @@ public class Produto {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	
 	private Integer id;
+	
 	private String nome;
 	private Integer quantidade;
 	private Double valorUnitario;
