@@ -28,6 +28,7 @@ public class Agricultor {
 	private String cpf;
 	private String telefone;
 	private String email;
+	private String senha;
 	
 	@OneToMany(mappedBy = "agricultor", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	private Set<Produto> produtos;
@@ -37,7 +38,7 @@ public class Agricultor {
 	}
 
 	public Agricultor(String nome, String registroRural, String endereco, String localizacao, String uf, String cpf,
-			String telefone, String email) {
+			String telefone, String email, String senha) {
 		super();
 		this.nome = nome;
 		this.registroRural = registroRural;
@@ -47,6 +48,7 @@ public class Agricultor {
 		this.cpf = cpf;
 		this.telefone = telefone;
 		this.email = email;
+		this.senha = senha;
 	}
 
 	public String getNome() {
@@ -112,6 +114,15 @@ public class Agricultor {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public String getSennha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
 
 	@JsonIgnore
 	public Set<Produto> getProdutos() {
