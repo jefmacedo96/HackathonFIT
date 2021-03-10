@@ -1,0 +1,45 @@
+.MainContainer{
+    margin-top: 5.2rem !important;
+    margin-bottom: 5.2rem !important;
+}
+
+@media(min-width: 1200px) {
+
+    .MainContainer{
+    max-width: 975px !important ;
+    }
+}
+
+.produto1 {
+
+    border-radius: 50% !important;
+    background: #D4D700 !important;
+    flex: none !important;
+
+}
+
+.produto2 {
+
+    border-radius: 50% !important;
+    background: #52B788 !important    ;
+    flex: none !important;
+
+}
+
+.produto3 {
+
+    border-radius: 50% !important;
+    background: #55A630 !important    ;
+    flex: none !important;
+
+}
+
+.produto4 {
+
+    border-radius: 50% !important;
+    background: #F8961E !important    ;
+    flex: none !important;
+    
+
+}
+

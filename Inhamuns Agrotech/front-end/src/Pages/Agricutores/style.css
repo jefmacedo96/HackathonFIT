@@ -1,0 +1,29 @@
+
+.Navigation{
+    padding: .5rem 0rem !important;
+}
+
+.navbar-brand {
+    white-space: normal !important;
+}
+
+.GroupButton{
+    display: flex ;
+    justify-content: space-evenly ;
+}
+
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(99, 99, 99, 0.075) !important ;
+}
+
+.TableActivities {
+    font-size: 0.9rem;
+    border: solid 1px #DCDDE0;
+  
+}
+
+.table td, .table th {
+    vertical-align: baseline!important;
+
+}
