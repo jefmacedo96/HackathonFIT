@@ -11,28 +11,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.ufc.crateus.agritech.model.Agricultor;
-import br.ufc.crateus.agritech.service.AgricultorService;
-
-
+import br.ufc.crateus.agritech.model.Produto;
+import br.ufc.crateus.agritech.service.ProdutoService;
 
 @CrossOrigin	
 @RestController
-@RequestMapping(path = "/api/agritech/agricultor")
-public class AgricultorController {
-	
+@RequestMapping(path = "/api/agritech/Produto")
+public class ProdutoController {
 	@Autowired
-	private AgricultorService agriService;
-	
+	ProdutoService prodService;
 	@RequestMapping(method = RequestMethod.GET)
-    public ResponseEntity<List<Agricultor>> getAgricultores() {
-		return new ResponseEntity<List<Agricultor>>(agriService.getAgricultores(),HttpStatus.OK);
+    public ResponseEntity<List<Produto>> getProdutos() {
+		return new ResponseEntity<List<Produto>>(prodService.getProdutos(),HttpStatus.OK);
     }
 	@RequestMapping(method = RequestMethod.POST)
-    public ResponseEntity<Agricultor> add(@RequestBody Agricultor agri){
+    public ResponseEntity<Produto> add(@RequestBody Produto prod){
    	 	
    	
-   	 return new ResponseEntity<Agricultor>(agriService.addAgricultor(agri), HttpStatus.OK);
+   	 return new ResponseEntity<Produto>(prodService.addProd(prod), HttpStatus.OK);
    	 
     }
 

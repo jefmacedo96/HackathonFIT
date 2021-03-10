@@ -18,7 +18,7 @@ import br.ufc.crateus.agritech.service.AgricultorService;
 
 @CrossOrigin	
 @RestController
-@RequestMapping(path = "/api/agritech/agricultor")
+@RequestMapping(path="/api/agritech/agricultor")
 public class AgricultorController {
 	
 	@Autowired
@@ -28,6 +28,7 @@ public class AgricultorController {
     public ResponseEntity<List<Agricultor>> getAgricultores() {
 		return new ResponseEntity<List<Agricultor>>(agriService.getAgricultores(),HttpStatus.OK);
     }
+	
 	@RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<Agricultor> add(@RequestBody Agricultor agri){
    	 	
