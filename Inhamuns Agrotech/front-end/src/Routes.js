@@ -7,6 +7,7 @@ import CadastrarUsuario from './Pages/cadastrarUsuario';
 import Produtos from './Pages/Produtos'
 import Agricutores from './Pages/Agricutores'
 import Empresas from './Pages/Empresas'
+import Login from './Pages/Login'
 
 
 function Routes () {
@@ -20,7 +21,8 @@ function Routes () {
                 <Route  path="/CadastrarUsuario" component={CadastrarUsuario} exact />  
                 <Route  path="/Produtos" component={Produtos} exact />  
                 <Route  path="/Agricutores" component={Agricutores} exact />   
-                <Route  path="/Empresas" component={Empresas} exact />              
+                <Route  path="/Empresas" component={Empresas} exact />   
+                <Route  path="/Login" component={Login} exact />                 
             </Switch>
     </BrowserRouter>
     );

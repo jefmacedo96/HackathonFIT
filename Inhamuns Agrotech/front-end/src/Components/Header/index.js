@@ -18,7 +18,7 @@ export default function Header() {
                 <Link to = "/Agricutores">   <Nav.Link href="#agricutores">Agricutores</Nav.Link></Link>
                 <Link to = "/Empresas">   <Nav.Link href="#produtos">Empresas</Nav.Link></Link>
                 <Link to = "/CadastrarUsuario">  <Button variant="outline-success">Cadastre-se</Button></Link>
-                    <Nav.Link href="#home">Login</Nav.Link>
+                <Link to = "/Login">  <Button variant="outline-success">Login</Button></Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
