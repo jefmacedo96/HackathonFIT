@@ -16,32 +16,32 @@ export default function Header() {
             <Carousel.Item  style={{ height: "550px"}}>
             <Image src={img1} style={{ objectFit: "cover" }}  alt="Third slide"  className="d-block w-100"/>
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Inhamuns Agrotech</h3>
+                    <p>aproximando o pequeno agricultor do mercado</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{ height: "550px"}}>
             <Image src={img2} alt="Third slide"  className="d-block w-100" />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Inhamuns Agrotech</h3>
+                    <p>aproximando o pequeno agricultor do mercado</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{ height: "550px"}}>
             <Image src={img3} style={{ objectFit: "cover" }} alt="Third slide"  className="d-block w-100" />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Inhamuns Agrotech</h3>
+                    <p>aproximando o pequeno agricultor do mercado</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{ height: "550px"}}>
             <Image src={img4} style={{ objectFit: "cover" }} alt="Third slide"  className="d-block w-100" />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Inhamuns Agrotech</h3>
+                    <p>aproximando o pequeno agricultor do mercado</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
